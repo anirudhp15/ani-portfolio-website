@@ -29,7 +29,7 @@ const Hero = () => {
       <GradientBackground />
       <div className="z-10 flex flex-col justify-center w-3/4 h-[80vh] mx-auto hero-content">
         <div className="m-0 mb-4 text-3xl text-right md:text-center dongle">
-          <p className="my-2 thin">Hi, my name is </p>
+          <p className="py-1 thin">Hi, my name is </p>
           <span className="font-bold text-transparent gradient-text animate-gradient whitespace-nowrap">
             Anirudh Pottammal<span className="text-white">.</span>
           </span>

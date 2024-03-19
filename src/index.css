@@ -4,6 +4,7 @@
 
 body {
   background-color: #000300;
+  overflow-x: hidden;
 }
 
 .gradient-text {
