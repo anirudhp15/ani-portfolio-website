@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
-import 'katex/dist/katex.min.css';
 import Footer from './components/Footer';
 import Introduction from './components/Introduction';
 import Education from './components/Education';
