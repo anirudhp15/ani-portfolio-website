@@ -117,7 +117,7 @@ const Experiences = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     initialSlide: 0,
     appendDots: (dots) => (
       <div
@@ -135,10 +135,20 @@ const Experiences = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          infinite: true,
+          dots: true,
         },
       },
       {
         breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -158,29 +168,31 @@ const Experiences = () => {
           {experiences.map((company, index) => (
             <div
               key={index}
-              className="p-4 my-4 transition duration-300 bg-white rounded-lg shadow-lg hover:scale-105"
+              className="p-4 my-4 transition duration-300 bg-white rounded-lg shadow-lg experience-card hover:scale-105"
             >
               <h3 className="text-lg font-semibold text-gray-800">
                 {company.name}
               </h3>
-              <div className="flex items-start justify-between">
-                <div className="flex-1 mr-4">
+              <div className="flex card-content">
+                <div className="flex flex-col flex-1 mr-4">
                   {company.roles.map((role, roleIndex) => (
                     <div key={roleIndex} className="mt-2">
                       <p className="text-sm font-semibold text-blue-600">
                         {role.title}
                       </p>
                       <p className="text-xs text-gray-500">{role.duration}</p>
-                      <div className="mt-2 text-sm text-gray-600">
-                        <p className="italic font-semibold">
-                          Role Description:
-                        </p>{" "}
-                        <p>{role.description}</p>
+                      <div className="mt-8">
+                        <p className="text-sm italic font-semibold text-gray-800">
+                          Role Description
+                        </p>
+                        <p className="text-sm text-gray-800">
+                          {role.description}
+                        </p>
                       </div>
                     </div>
                   ))}
                 </div>
-                <div className="self-center flex-shrink-0">
+                <div className="self-center flex-shrink-0 mr-2">
                   <img
                     src={company.logo}
                     alt={`${company.name} Logo`}

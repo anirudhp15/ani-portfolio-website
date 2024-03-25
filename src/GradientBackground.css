@@ -179,6 +179,26 @@ html, body {
   /* Other styles remain unchanged */
 }
 
+.experience-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-content > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .drawer {
   max-height: 0;
   overflow: hidden;
