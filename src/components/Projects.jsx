@@ -10,7 +10,8 @@ const Projects = () => {
   const projects = [
     {
       title: "HabitTracker",
-      brief: "This is a brief description of HabitTracker.",
+      brief:
+        "Developed a music analytics dashboard that leverages ML-classification & webscraping techniques to provide insights for Our Bad Habit into emerging trends and artist performance across social platforms.",
       description: "This is a long description of Portfolio Optimization.",
       imageUrl: habittracker,
       projectUrl: "#",
@@ -18,7 +19,8 @@ const Projects = () => {
     },
     {
       title: "Option/Equity Trading Strategy",
-      brief: "This is a brief description of Option Trading Strategy.",
+      brief:
+        "Preprocessed and analyzed CQAI datasets to develop a quant-driven trading strategy centered on the option-to-equity volume ratio for signals. Constructed a factor model using beta coefficients to balance exposure and optimize market returns.",
       description: "CloudQuant notebook that implements ",
       imageUrl: strategy,
       projectUrl: "#",
@@ -26,7 +28,8 @@ const Projects = () => {
     },
     {
       title: "Portfolio Optimization",
-      brief: "This is a brief description of Portfolio Optimization.",
+      brief:
+        "This Python tool uses advanced finance algorithms and Python libraries to enhance investment portfolios. It assesses and boosts potential annual returns, delivering a thorough performance analysis of the optimized investment strategy.",
       description:
         "Jupyter notebook that uses the Efficient Frontier to optimize a portfolio of stocks during the COVID pandemic, and uses Sharpe Ratio to determine the best portfolio.",
       imageUrl: portfolio,
@@ -38,7 +41,7 @@ const Projects = () => {
     {
       title: "Option Pricing & Sensitivity Analysis",
       brief:
-        "This is a brief description of Option Pricing & Sensitivity Analysis.",
+        "This Python program is designed to calculate the price of a European option using two different pricing models: the Black-Scholes option pricing model and the binomial option pricing model.",
       description:
         "Python program that prices options using the Black-Scholes model and binomial pricing model, and performs sensitivity analysis with respect to changes in the underlying asset, volatility, and time to maturity.",
       imageUrl: option,
@@ -49,7 +52,8 @@ const Projects = () => {
     },
     {
       title: "Password Generator & Validator",
-      brief: "This is a brief description of Password Generator & Validator.",
+      brief:
+        "This Python program offers streamlined password generation and robust validation, ensuring users can easily create and verify the strength of their passwords.",
       description:
         "Python program that generates a random password of preferred complexity, and validates password strength to user",
       imageUrl: password,
@@ -59,7 +63,7 @@ const Projects = () => {
     },
     {
       title: "Coming Soon!",
-      brief: "This is a brief description of Coming Soon!",
+      brief: "Coming Soon!",
       description: "Will be uploaded in March 2024",
       imageUrl: comingSoon,
       projectUrl: "#",
@@ -87,7 +91,7 @@ const Projects = () => {
             <div className="p-4">
               <h3 className="text-lg font-semibold">{project.title}</h3>
               <p className="mt-2 text-gray-600">{project.brief}</p>
-              <div className="mt-4 mb-4">
+              <div className="mt-6 mb-4">
                 <a
                   href={project.projectUrl}
                   role="button"
