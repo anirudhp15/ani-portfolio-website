@@ -87,7 +87,7 @@ const Hero = () => {
             rel="noreferrer"
           >
             <button className="cursor-n-resize px-6 py-2 text-white hover:text-[#5a48ff] rounded-lg hover:bg-[#ddd5ff] hover:scale-105 transition duration-300 items-center justify-center whitespace-nowrap hidden md:flex">
-              <AiOutlineDownload className="mr-2" /> <span>My Resume</span>
+              <AiOutlineDownload className="mr-2" /> <span>Resume</span>
             </button>
           </a>
           <button
