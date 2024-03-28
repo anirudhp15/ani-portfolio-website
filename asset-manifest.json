@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.debe69f6.css",
-    "main.js": "/static/js/main.06b38f6f.js",
+    "main.js": "/static/js/main.58d3c754.js",
     "static/media/ani_city.jpg": "/static/media/ani_city.ed50e053e1a500a5c464.jpg",
     "static/media/password.jpg": "/static/media/password.d5d4d026f53324131338.jpg",
     "static/media/option_pricing.jpg": "/static/media/option_pricing.952a5249bedc4defd818.jpg",
@@ -18,10 +18,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.debe69f6.css.map": "/static/css/main.debe69f6.css.map",
-    "main.06b38f6f.js.map": "/static/js/main.06b38f6f.js.map"
+    "main.58d3c754.js.map": "/static/js/main.58d3c754.js.map"
   },
   "entrypoints": [
     "static/css/main.debe69f6.css",
-    "static/js/main.06b38f6f.js"
+    "static/js/main.58d3c754.js"
   ]
 }
