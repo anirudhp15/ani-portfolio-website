@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.a033cc87.css",
-    "main.js": "/static/js/main.b363c926.js",
+    "main.js": "/static/js/main.e5dd2ff3.js",
     "static/media/ani_pfp.jpg": "/static/media/ani_pfp.d35eef7f3caa7d5229e6.jpg",
     "static/media/ani_city.jpg": "/static/media/ani_city.ed50e053e1a500a5c464.jpg",
+    "static/media/fam2.jpg": "/static/media/fam2.c4ba43c415289578aa63.jpg",
     "static/media/fam1.jpg": "/static/media/fam1.8088520587727a448685.jpg",
     "static/media/password.jpg": "/static/media/password.d5d4d026f53324131338.jpg",
     "static/media/option_pricing.jpg": "/static/media/option_pricing.952a5249bedc4defd818.jpg",
@@ -20,10 +21,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.a033cc87.css.map": "/static/css/main.a033cc87.css.map",
-    "main.b363c926.js.map": "/static/js/main.b363c926.js.map"
+    "main.e5dd2ff3.js.map": "/static/js/main.e5dd2ff3.js.map"
   },
   "entrypoints": [
     "static/css/main.a033cc87.css",
-    "static/js/main.b363c926.js"
+    "static/js/main.e5dd2ff3.js"
   ]
 }
