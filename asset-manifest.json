@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2abe3c7.css",
-    "main.js": "/static/js/main.baf7f480.js",
+    "main.css": "/static/css/main.b7555b85.css",
+    "main.js": "/static/js/main.20b63822.js",
+    "static/media/ani_pfp.jpg": "/static/media/ani_pfp.d35eef7f3caa7d5229e6.jpg",
     "static/media/ani_city.jpg": "/static/media/ani_city.ed50e053e1a500a5c464.jpg",
+    "static/media/fam1.jpg": "/static/media/fam1.8088520587727a448685.jpg",
     "static/media/password.jpg": "/static/media/password.d5d4d026f53324131338.jpg",
     "static/media/option_pricing.jpg": "/static/media/option_pricing.952a5249bedc4defd818.jpg",
     "static/media/option_strategy.jpg": "/static/media/option_strategy.047deec3150492d27fa9.jpg",
+    "static/media/polaroid2.jpg": "/static/media/polaroid2.70a494360755f6ef4e9b.jpg",
     "static/media/habittracker.jpg": "/static/media/habittracker.6fc075bf91fdbdf16b8b.jpg",
     "static/media/portfolio_optimization.jpg": "/static/media/portfolio_optimization.006ff6b01b4b96da9c2e.jpg",
-    "static/media/ani_pfp.jpg": "/static/media/ani_pfp.7315d163522af761f679.jpg",
     "static/media/coming_soon.jpg": "/static/media/coming_soon.d39255e21c7b5c48ff68.jpg",
     "static/media/nyudentistry.jpeg": "/static/media/nyudentistry.2b5e98a7d5e48245d262.jpeg",
     "static/media/nyuit.png": "/static/media/nyuit.da36a6d565c1823e21d5.png",
@@ -17,11 +19,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c2abe3c7.css.map": "/static/css/main.c2abe3c7.css.map",
-    "main.baf7f480.js.map": "/static/js/main.baf7f480.js.map"
+    "main.b7555b85.css.map": "/static/css/main.b7555b85.css.map",
+    "main.20b63822.js.map": "/static/js/main.20b63822.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2abe3c7.css",
-    "static/js/main.baf7f480.js"
+    "static/css/main.b7555b85.css",
+    "static/js/main.20b63822.js"
   ]
 }
