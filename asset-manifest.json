@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.43d098e0.css",
-    "main.js": "/static/js/main.2c8b622e.js",
+    "main.css": "/static/css/main.aa18ee9f.css",
+    "main.js": "/static/js/main.532b541f.js",
     "static/media/ani_pfp.jpg": "/static/media/ani_pfp.d35eef7f3caa7d5229e6.jpg",
     "static/media/ani_city.jpg": "/static/media/ani_city.ed50e053e1a500a5c464.jpg",
     "static/media/fam2.jpg": "/static/media/fam2.c4ba43c415289578aa63.jpg",
@@ -20,11 +20,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.43d098e0.css.map": "/static/css/main.43d098e0.css.map",
-    "main.2c8b622e.js.map": "/static/js/main.2c8b622e.js.map"
+    "main.aa18ee9f.css.map": "/static/css/main.aa18ee9f.css.map",
+    "main.532b541f.js.map": "/static/js/main.532b541f.js.map"
   },
   "entrypoints": [
-    "static/css/main.43d098e0.css",
-    "static/js/main.2c8b622e.js"
+    "static/css/main.aa18ee9f.css",
+    "static/js/main.532b541f.js"
   ]
 }
